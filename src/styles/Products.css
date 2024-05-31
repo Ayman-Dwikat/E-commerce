@@ -1,0 +1,100 @@
+.card {
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+.card-body a {
+  transition: 0.5s;
+}
+
+.card img {
+  width: 60%;
+  height: 200px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 10px 0;
+  transition: var(--main-transition);
+}
+
+.card:hover img {
+  filter: grayscale(100%);
+  left: 30%;
+  transform: scale(1.025);
+}
+
+.card:hover > .card-body h5,
+.card:hover > .card-body p {
+  color: gray;
+}
+
+.card:hover > .card-body a {
+  background-color: gray;
+  border: 1px solid gray;
+}
+
+.card:hover > .card-body a:hover {
+  background-color: #0f80dd;
+  border: 1px solid #0f80dd;
+}
+
+.card h5 {
+  transition: var(--main-transition);
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 2.6em;
+}
+
+.card p {
+  transition: var(--main-transition);
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Card Icons styles */
+.card .icon {
+  position: absolute;
+  top: 10px;
+  left: -40px;
+  opacity: 0;
+  transition: var(--main-transition);
+  font-size: 24px;
+  cursor: pointer;
+  color: rgba(128, 128, 128, 0.508);
+}
+
+.card .icon:hover {
+  color: #2195f3cb;
+}
+
+.card:hover .icon {
+  left: 30px;
+  opacity: 1;
+}
+
+.card .icon:nth-child(3) {
+  top: 10px;
+  transition-delay: 0.1s;
+}
+
+.card .icon:nth-child(4) {
+  top: 50px;
+  transition-delay: 0.2s;
+}
+
+.card .icon:nth-child(5) {
+  top: 90px;
+  transition-delay: 0.3s;
+}
+
+/* Filter Buttons */
+.products .btn-group {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}

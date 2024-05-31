@@ -1,0 +1,39 @@
+.navbar {
+  padding: 15px 0;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.navbar .logo {
+  color: var(--main-color);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ul.navbar-nav li.nav-item:not(:last-child) {
+  margin-right: 11px;
+}
+
+.navbar .navbar-nav > .nav-item > .nav-link {
+  position: relative;
+  padding-top: 10px;
+}
+
+.navbar .navbar-nav > .nav-item > .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0.13rem;
+  background-color: var(--main-color);
+  transition: var(--main-transition);
+}
+
+.navbar .navbar-nav > .nav-item > .nav-link:hover::before {
+  width: 100%;
+}
+
+.navbar .navbar-nav > .nav-item > .nav-link:hover {
+  color: var(--main-color);
+  background-color: #fafafa;
+}
