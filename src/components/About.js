@@ -1,11 +1,12 @@
-import Image1 from "../Images/shopping-apps.jpg";
 import "../styles/About.css";
 
 function About() {
   return (
     <div className="about">
       <section>
-        <div class="content">
+        <div className="image"></div>
+
+        <div className="content">
           <h2>About Us</h2>
           <span></span>
 
@@ -16,17 +17,17 @@ function About() {
             facilis unde quos corporis!
           </p>
 
-          <ul class="links">
+          <ul className="links">
             <li>
-              <a href="#">work</a>
+              <a href="#work">work</a>
             </li>
-            <div class="vertical-line"></div>
+            <div className="vertical-line"></div>
             <li>
-              <a href="#">service</a>
+              <a href="#service">service</a>
             </li>
-            <div class="vertical-line"></div>
+            <div className="vertical-line"></div>
             <li>
-              <a href="#">contact</a>
+              <a href="#contact">contact</a>
             </li>
           </ul>
         </div>

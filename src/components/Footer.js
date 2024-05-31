@@ -1,7 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faAnglesRight, faLocationDot, faClock, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
-
+import {
+  faFacebook,
+  faLinkedin,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faAnglesRight,
+  faLocationDot,
+  faClock,
+  faPhoneVolume,
+} from "@fortawesome/free-solid-svg-icons";
 
 import "../styles/Footer.css";
 import Image1 from "../Images/gallery-01.png";
@@ -23,7 +31,8 @@ function Footer() {
               <a
                 href="https://www.facebook.com/profile.php?id=100087475462339"
                 class="facebook"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
@@ -32,7 +41,8 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/ayman-dwikat-911a2b305/"
                 class="linkedin"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
@@ -41,7 +51,8 @@ function Footer() {
               <a
                 href="https://github.com/Ayman-Dwikat"
                 class="github"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
@@ -84,7 +95,7 @@ function Footer() {
           <div class="line">
             <FontAwesomeIcon className="icon" icon={faLocationDot} />
             <div class="info">
-            Palestine, Nablus, Inside The Sphinx, Room Number 220
+              Palestine, Nablus, Inside The Sphinx, Room Number 220
             </div>
           </div>
           <div class="line">
