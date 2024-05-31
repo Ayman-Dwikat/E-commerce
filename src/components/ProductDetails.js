@@ -22,7 +22,7 @@ function ProductDetails() {
     fetch(`${api_url}/${params.productId}`)
       .then((res) => res.json())
       .then((product) => setProduct(product));
-  }, []);
+  }, [params.productId]);
 
   const renderStars = (rating) => {
     const fullStars = Math.floor(rating);
@@ -69,6 +69,7 @@ function ProductDetails() {
                   data-fslightbox="mygalley"
                   className="rounded-4"
                   target="_blank"
+                  rel="noopener noreferrer"
                   data-type="image"
                   href={product.image}
                 >
@@ -90,6 +91,7 @@ function ProductDetails() {
                   data-fslightbox="mygalley"
                   className="border mx-1 rounded-2"
                   target="_blank"
+                  rel="noopener noreferrer"
                   data-type="image"
                   href="https://mdbcdn.b-cdn.net/img/bootstrap-ecommerce/items/detail1/big1.webp"
                 >
@@ -105,6 +107,7 @@ function ProductDetails() {
                   data-fslightbox="mygalley"
                   className="border mx-1 rounded-2"
                   target="_blank"
+                  rel="noopener noreferrer"
                   data-type="image"
                   href="https://mdbcdn.b-cdn.net/img/bootstrap-ecommerce/items/detail1/big2.webp"
                 >
@@ -120,6 +123,7 @@ function ProductDetails() {
                   data-fslightbox="mygalley"
                   className="border mx-1 rounded-2"
                   target="_blank"
+                  rel="noopener noreferrer"
                   data-type="image"
                   href="https://mdbcdn.b-cdn.net/img/bootstrap-ecommerce/items/detail1/big3.webp"
                 >
@@ -135,6 +139,7 @@ function ProductDetails() {
                   data-fslightbox="mygalley"
                   className="border mx-1 rounded-2"
                   target="_blank"
+                  rel="noopener noreferrer"
                   data-type="image"
                   href="https://mdbcdn.b-cdn.net/img/bootstrap-ecommerce/items/detail1/big4.webp"
                 >
@@ -150,6 +155,7 @@ function ProductDetails() {
                   data-fslightbox="mygalley"
                   className="border mx-1 rounded-2"
                   target="_blank"
+                  rel="noopener noreferrer"
                   data-type="image"
                   href="https://mdbcdn.b-cdn.net/img/bootstrap-ecommerce/items/detail1/big.webp"
                 >

@@ -5,8 +5,6 @@ function About() {
   return (
     <div className="about">
       <section>
-        <div class="image"></div>
-
         <div class="content">
           <h2>About Us</h2>
           <span></span>

@@ -23,7 +23,7 @@ function Footer() {
               <a
                 href="https://www.facebook.com/profile.php?id=100087475462339"
                 class="facebook"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
@@ -32,7 +32,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/ayman-dwikat-911a2b305/"
                 class="linkedin"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
@@ -41,7 +41,7 @@ function Footer() {
               <a
                 href="https://github.com/Ayman-Dwikat"
                 class="github"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faGithub} />
               </a>

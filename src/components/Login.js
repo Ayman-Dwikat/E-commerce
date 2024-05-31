@@ -16,6 +16,7 @@ function Login() {
             <div className="featured-image mb-3">
               <img
                 src={Image1}
+                alt="Image1"
                 className="img-fluid"
                 style={{ width: "250px" }}
               />
@@ -90,6 +91,7 @@ function Login() {
                   <img
                     src={Image2}
                     style={{ width: "20px" }}
+                    alt="..Image2."
                     className="me-2"
                   />
                   <small>Sign In with Google</small>
