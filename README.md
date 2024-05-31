@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Demo link [Preview the design here](https://ayman-ecommerce.netlify.app/) .\
+Demo link [Preview the design here](https://ayman-ecommerce.netlify.app/).\
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
